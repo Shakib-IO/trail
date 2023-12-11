@@ -6,7 +6,7 @@ from typing import Iterator
 
 
 @dataclass
-class Account:
+class BankAccount:
     name: str
     number: str
     balance: Decimal = Decimal("0")
